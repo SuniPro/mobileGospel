@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|IBM+Plex+Sans:500&display=swap");
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.home-wrapper {
+  padding: 10rem;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.home-wrapper .home-title {
+  margin-bottom: 70px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.home-wrapper .home-title span {
+  font-size: 2.6rem;
+  font-family: "Noto Sans KR", cursive;
+}
+.home-wrapper .home-contents {
+  text-align: center;
+  margin: 15px 0 70px;
+  font-family: "Nanum Barun Gothic";
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.home-wrapper .button-login {
+  width: 300px;
+  font-size: medium;
+  font-color: white;
+  outline: solid 1px purple;
+  margin-bottom: 30px;
+}
+.home-wrapper .button-signUp {
+  width: 300px;
+  font-size: medium;
+  outline: solid 1px purple;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=home.css.map */

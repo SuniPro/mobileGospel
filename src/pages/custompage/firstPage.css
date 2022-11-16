@@ -1,0 +1,52 @@
+.custom-wrapper {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.custom-wrapper .custom-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 15rem;
+  outline: solid red 1px;
+}
+.custom-wrapper .custom-menu .top-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+.custom-wrapper .custom-menu .top-menu .menu-1 {
+  width: 20rem;
+  outline: solid black 1px;
+  border-radius: 10px;
+}
+.custom-wrapper .custom-menu .top-menu .menu-2 {
+  width: 20rem;
+  outline: solid black 1px;
+  border-radius: 10px;
+}
+.custom-wrapper .custom-menu .bottom-menu {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+.custom-wrapper .custom-menu .bottom-menu .menu-1 {
+  width: 20rem;
+  outline: solid black 1px;
+  border-radius: 10px;
+}
+.custom-wrapper .custom-menu .bottom-menu .menu-2 {
+  width: 20rem;
+  outline: solid black 1px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=firstPage.css.map */

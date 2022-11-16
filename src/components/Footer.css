@@ -1,0 +1,70 @@
+@media all and (min-width: 1024px) {
+  .home-wrapper {
+    width: 100%;
+  }
+}
+@media all and (max-width: 1024px) {
+  .home-wrapper {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .home-wrapper {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  .home-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .home-wrapper .footer-menu {
+    margin-top: 3%;
+  }
+}
+a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+  font-weight: bold;
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+
+.footerWrapper {
+  clear: both;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2rem;
+  color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.footerWrapper .footerTitle a {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto sans KR", cursive;
+}
+.footerWrapper .footerMenu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerWrapper .footerMenu a {
+  font-size: 0.5rem;
+  font-family: "Noto Sans KR", sans-serif;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
+
+/*# sourceMappingURL=Footer.css.map */
